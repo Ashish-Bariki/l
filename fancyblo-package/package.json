@@ -1,0 +1,31 @@
+{
+  "name": "fancyblo",
+  "version": "1.0.0",
+  "description": "A tiny css package",
+  "module": "package/dist/fancyblo.esm.min.js",
+  "browser": "package/dist/fancyblo.umd.min.js",
+  "main": "package/dist/fancyblo.esm.min.js",
+  "scripts": {
+    "build":"rollup -c",
+    "watch":"rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish-Bariki/fancyblo.git"
+  },
+  "author": "Ashish Bariki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ashish-Bariki/fancyblo/issues"
+  },
+  "homepage": "https://github.com/Ashish-Bariki/fancyblo#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.55.0"
+  }
+}
