@@ -1,6 +1,6 @@
 {
   "name": "fancyblo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tiny css package",
   "module": "package/dist/fancyblo.esm.min.js",
   "browser": "package/dist/fancyblo.umd.min.js",
